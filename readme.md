@@ -35,7 +35,7 @@ The Sagitta class takes 7 parameters to initalize. In the example below logins.p
 ``` python
 
 import logins
-from webservices import Sagitta
+from sagitta import Sagitta
 
 # create the Sagitta object by passing in login creds. see logins.py
 s = Sagitta(**logins.sagitta)
